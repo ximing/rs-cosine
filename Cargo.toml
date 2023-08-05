@@ -1,6 +1,6 @@
 [package]
 edition = "2021"
-name = "rs-cosine"
+name = "cosine"
 version = "0.0.0"
 
 [lib]
