@@ -1,0 +1,16 @@
+{
+  "name": "rs-cosine-darwin-universal",
+  "version": "0.0.1",
+  "os": [
+    "darwin"
+  ],
+  "main": "rs-cosine.darwin-universal.node",
+  "files": [
+    "rs-cosine.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "git@github.com:ximing/rs-cosine.git"
+}

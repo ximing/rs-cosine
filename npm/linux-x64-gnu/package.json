@@ -1,0 +1,22 @@
+{
+  "name": "rs-cosine-linux-x64-gnu",
+  "version": "0.0.1",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "rs-cosine.linux-x64-gnu.node",
+  "files": [
+    "rs-cosine.linux-x64-gnu.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "git@github.com:ximing/rs-cosine.git",
+  "libc": [
+    "glibc"
+  ]
+}
