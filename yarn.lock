@@ -71,6 +71,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rsjs/cosine@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@rsjs/cosine@workspace:."
+  dependencies:
+    "@napi-rs/cli": ^2.16.2
+    ava: ^5.1.1
+    prettier: ^3.0.1
+  languageName: unknown
+  linkType: soft
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -1700,16 +1710,6 @@ __metadata:
   checksum: 87f4164e396f0171b0a3386cc1877a817f572148ee13a7e113b238e48e8a9f2f31d009a92ec38a591ff1567d9662c6b67fd8818a2dbbaed74bc26a87a2a4a9a0
   languageName: node
   linkType: hard
-
-"rs-cosine@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "rs-cosine@workspace:."
-  dependencies:
-    "@napi-rs/cli": ^2.16.2
-    ava: ^5.1.1
-    prettier: ^3.0.1
-  languageName: unknown
-  linkType: soft
 
 "run-parallel@npm:^1.1.9":
   version: 1.2.0
