@@ -1,15 +1,15 @@
 {
-  "name": "rs-cosine-win32-x64-msvc",
-  "version": "0.0.1",
+  "name": "@rsjs/cosine-win32-x64-msvc",
+  "version": "0.1.1",
   "os": [
     "win32"
   ],
   "cpu": [
     "x64"
   ],
-  "main": "rs-cosine.win32-x64-msvc.node",
+  "main": "cosine.win32-x64-msvc.node",
   "files": [
-    "rs-cosine.win32-x64-msvc.node"
+    "cosine.win32-x64-msvc.node"
   ],
   "license": "MIT",
   "engines": {

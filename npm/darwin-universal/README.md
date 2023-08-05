@@ -1,3 +1,3 @@
-# `rs-cosine-darwin-universal`
+# `@rsjs/cosine-darwin-universal`
 
-This is the **universal-apple-darwin** binary for `rs-cosine`
+This is the **universal-apple-darwin** binary for `@rsjs/cosine`

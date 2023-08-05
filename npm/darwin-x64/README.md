@@ -1,3 +1,3 @@
-# `rs-cosine-darwin-x64`
+# `@rsjs/cosine-darwin-x64`
 
-This is the **x86_64-apple-darwin** binary for `rs-cosine`
+This is the **x86_64-apple-darwin** binary for `@rsjs/cosine`

@@ -1,12 +1,12 @@
 {
-  "name": "rs-cosine-darwin-universal",
-  "version": "0.0.1",
+  "name": "@rsjs/cosine-darwin-universal",
+  "version": "0.1.1",
   "os": [
     "darwin"
   ],
-  "main": "rs-cosine.darwin-universal.node",
+  "main": "cosine.darwin-universal.node",
   "files": [
-    "rs-cosine.darwin-universal.node"
+    "cosine.darwin-universal.node"
   ],
   "license": "MIT",
   "engines": {

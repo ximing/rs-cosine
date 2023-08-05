@@ -1,7 +1,7 @@
 name: CI
 env:
   DEBUG: napi:*
-  APP_NAME: rs-cosine
+  APP_NAME: cosine
   MACOSX_DEPLOYMENT_TARGET: '10.13'
 permissions:
   contents: write

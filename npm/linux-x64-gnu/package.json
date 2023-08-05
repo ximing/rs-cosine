@@ -1,15 +1,15 @@
 {
-  "name": "rs-cosine-linux-x64-gnu",
-  "version": "0.0.1",
+  "name": "@rsjs/cosine-linux-x64-gnu",
+  "version": "0.1.1",
   "os": [
     "linux"
   ],
   "cpu": [
     "x64"
   ],
-  "main": "rs-cosine.linux-x64-gnu.node",
+  "main": "cosine.linux-x64-gnu.node",
   "files": [
-    "rs-cosine.linux-x64-gnu.node"
+    "cosine.linux-x64-gnu.node"
   ],
   "license": "MIT",
   "engines": {

@@ -1,3 +1,3 @@
-# `rs-cosine-win32-x64-msvc`
+# `@rsjs/cosine-win32-x64-msvc`
 
-This is the **x86_64-pc-windows-msvc** binary for `rs-cosine`
+This is the **x86_64-pc-windows-msvc** binary for `@rsjs/cosine`
