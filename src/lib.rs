@@ -13,20 +13,11 @@ extern crate napi_derive;
 
 #[napi(object)]
 #[derive(Serialize, Deserialize)]
-pub struct Data {
-    pub embedding: Vec<f64>,
-    pub index: i32,
-    pub object: String,
-}
-
-#[napi(object)]
-#[derive(Serialize, Deserialize)]
 pub struct JsonFile {
-    pub data: Vec<Data>,
     pub model: String,
     pub hash: String,
     pub content: Option<HashMap<String, String>>,
-    pub object: String,
+    pub embedding: Vec<f64>,
 }
 
 #[napi(object)]
@@ -64,7 +55,7 @@ pub fn read_json_and_compute_similarity(paths: Vec<String>, vert: Vec<f64>) -> R
                     let file = File::open(&path).expect("Unable to open file");
                     let reader = BufReader::new(file);
                     let json_file: JsonFile = serde_json::from_reader(reader).expect("Unable to parse JSON");
-                    let embedding = &json_file.data[0].embedding;
+                    let embedding = &json_file.embedding;
                     let score = do_compute_cosine_similarity(embedding, &vert);
                     let result_item = ResultItem {
                         path: path.to_string_lossy().into_owned(),
