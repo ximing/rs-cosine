@@ -49,7 +49,7 @@ pub fn compute_cosine_similarity(vector1: Vec<f64>, vector2: Vec<f64>) -> f64 {
 pub fn read_json_and_compute_similarity(paths: Vec<String>, vert: Vec<f64>) -> Result<Vec<ResultItem>> {
     let mut result = Vec::new();
     for path in paths {
-        for entry in glob(&format!("{}/*.vert.json", path)).expect("Failed to read glob pattern") {
+        for entry in glob(&format!("{}/**/*.vert.json", path)).expect("Failed to read glob pattern") {
             match entry {
                 Ok(path) => {
                     let file = File::open(&path).expect("Unable to open file");
